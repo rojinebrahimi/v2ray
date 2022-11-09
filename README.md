@@ -5,11 +5,11 @@ Yet another tool to feel freedom :)
 - Docker-Compose
 
 ### Setup
-First, clone the repo into your desired path and "cd" to it. Then build the required images using:
+- First, clone the repo into your desired path and "cd" to it. Then build the required images using:
 ```
 docker-compose build
 ```
-Second, go for running the container. The default port is 9007 but feel free to change it via args in the docker-compose file.
+- Second, go for running the container. The default port is 9007 but feel free to change it via args in the docker-compose file.
 ```
 docker-compose -p v2ray up -d
 ```
