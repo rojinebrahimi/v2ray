@@ -16,6 +16,7 @@ docker-compose -p v2ray up -d
 Enjoy freedom!
 
 ### Acknowledgements
- - The main script and configuration rights belongs to [vaxilu](https://github.com/vaxilu).
- - The latest version might change in the future; the used version at the time of writing, is 0.3.2
+ - The Main Script and configuration rights belongs to [vaxilu](https://github.com/vaxilu).
+ - The English Version [FranzKafkaYu](https://github.com/FranzKafkaYu/x-ui)
+ - The Latest Version might change in the future. the used version at the time of writing, is `0.3.3` .
  

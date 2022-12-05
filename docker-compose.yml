@@ -5,7 +5,7 @@ services:
       context: .
       args:
         - USERNAME=vpnuser
-        - PASSWORD=qweasdQWEASD
+        - PASSWORD=#qweasd@QWEASD!
         - PORT=9007
     network_mode: host
     environment:
