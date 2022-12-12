@@ -5,6 +5,11 @@ Yet another tool to feel freedom :)
 - Docker-Compose
 
 ### Setup
+- First Make a directory named letsencrypt in `/etc` in order to Generate SSL Certificate:
+```
+mkdir /etc/letsencrypt
+```
+
 - First, clone the repo into your desired path and "cd" to it. Then build the required images using:
 ```
 docker-compose build
@@ -13,6 +18,7 @@ docker-compose build
 ```
 docker-compose -p v2ray up -d
 ```
+
 Enjoy freedom!
 
 ### Acknowledgements
