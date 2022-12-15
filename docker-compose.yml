@@ -5,8 +5,10 @@ services:
       context: .
       args:
         - USERNAME=vpnuser
-        - PASSWORD=qweasdQWEASD
+        - PASSWORD=#qweasd@QWEASD!
         - PORT=9007
+    volumes:
+      - "/etc/letsencrypt:/etc/letsencrypt"
     network_mode: host
     environment:
       - TZ=Asia/Tehran
