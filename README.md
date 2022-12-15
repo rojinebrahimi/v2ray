@@ -10,11 +10,11 @@ Yet another tool to feel freedom :)
 mkdir /etc/letsencrypt
 ```
 
-- First, clone the repo into your desired path and "cd" to it. Then build the required images using:
+- Second, clone the repo into your desired path and "cd" to it. Then build the required images using:
 ```
 docker-compose build
 ```
-- Second, go for running the container. The default port is 9007 but feel free to change it via args in the docker-compose file.
+- Third, run the container. The default port is 9007, feel free to change it via args in the docker-compose file.
 ```
 docker-compose -p v2ray up -d
 ```
@@ -23,6 +23,6 @@ Enjoy freedom!
 
 ### Acknowledgements
  - The Main Script and configuration rights belongs to [vaxilu](https://github.com/vaxilu).
- - The English Version [FranzKafkaYu](https://github.com/FranzKafkaYu/x-ui)
  - The Latest Version might change in the future. the used version at the time of writing, is `0.3.3` .
+ - The English Version [FranzKafkaYu](https://github.com/FranzKafkaYu/x-ui)
  
