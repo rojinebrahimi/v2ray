@@ -18,7 +18,7 @@ RUN apt-get update && \
 
 WORKDIR /usr/local
 
-RUN wget -N --no-check-certificate -O /usr/local/x-ui-linux-amd64.tar.gz https://github.com/FranzKafkaYu/x-ui/releases/download/0.3.3.18-1207/x-ui-linux-amd64-english.tar.gz
+RUN curl -fsSL https://github.com/FranzKafkaYu/x-ui/releases/latest/download/x-ui-linux-amd64-english.tar.gz -o /usr/local/x-ui-linux-amd64.tar.gz 
 RUN tar zxvf x-ui-linux-amd64.tar.gz
 RUN rm -f x-ui-linux-amd64.tar.gz
 RUN chmod +x /usr/local/x-ui/x-ui
